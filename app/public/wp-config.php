@@ -27,10 +27,10 @@ if(file_exists(dirname(__FILE__) . '/local.php')){
 	define( 'DB_HOST', 'localhost' );
 } else {
 	// Live database settings
-	define( 'DB_NAME', 'zohdy_dk_db' );
-	define( 'DB_USER', 'zohdy_dk' );
-	define( 'DB_PASSWORD', '123Falke' );
-	define( 'DB_HOST', 'mysql79.unoeuro.com' );
+	define( 'DB_NAME', '' );
+	define( 'DB_USER', '' );
+	define( 'DB_PASSWORD', '' );
+	define( 'DB_HOST', '' );
 }
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
